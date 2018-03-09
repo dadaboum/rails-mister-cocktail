@@ -37,7 +37,7 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'autoprefixer-rails'
 gem 'jquery-rails' # Add this line if you use Rails 5.1
-
+gem 'figaro'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
