@@ -6,7 +6,7 @@
     <div class="row">
     <% @cocktails.each do |cocktail| %>
       <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1510630093590-b7d7fabbb5ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a27522856d58243b0d7eb1d0fd1c132b&auto=format&fit=crop&w=500&q=60');">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= cl_image_path 'bffg0yzmcpkot2aph2hb' %>');">
 
           <div class="card-description">
             <h2><%= cocktail.name %></h2>
