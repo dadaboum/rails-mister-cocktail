@@ -2,8 +2,8 @@
 <div class="container">
 
   <%= simple_form_for @cocktail do |f|%>
-    <%= f.input :name %>
-    <%= f.input :photo %>
+    <%= f.input :name, label: "How would you name your cocktail?" %>
+    <%= f.input :photo, label: "Please upload a picture"%>
     <%= f.input :photo_cache, as: :hidden %>
     <%= f.submit %>
   <% end %>
